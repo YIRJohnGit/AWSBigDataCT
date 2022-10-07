@@ -1,5 +1,7 @@
 # AWS Big Data Certification Training [AWSBDCT]
 
+https://github.com/YIRJohnGit/https://github.com/YIRJohnGit/my_learning_AWSBigDataCertificationTraining.git
+
 ## **…or create a new repository on the command line**
 
 ```
@@ -12,14 +14,13 @@ git config --global user.name "YIRJohnGit"
 git add .
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/YIRJohnGit/https://github.com/YIRJohnGit/my_learning_AWSBigDataCertificationTraining.git
+git remote add origin https://github.com/YIRJohnGit/my_learning_AWSBigDataCertificationTraining.git
 git push -u origin main
 ```
 
 ## **...or push an existing repository from the command line**
 ```
-git remote add origin https://github.com/YIRJohnGit/https://github.com/YIRJohnGit/my_learning_AWSBigDataCertificationTraining.git
+git remote add origin https://github.com/YIRJohnGit/my_learning_AWSBigDataCertificationTraining.git
 git branch -M main
 git push -u origin main
 ```
-
