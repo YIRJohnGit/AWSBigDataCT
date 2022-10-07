@@ -1,7 +1,5 @@
 # AWS Big Data Certification Training [AWSBDCT]
 
-https://github.com/YIRJohnGit/https://github.com/YIRJohnGit/my_learning_AWSBigDataCertificationTraining.git
-
 ## **…or create a new repository on the command line**
 
 ```
