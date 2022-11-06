@@ -1,5 +1,11 @@
 # RedShift Clustering
 
+***Prerequisite***
+_Required workbench-build127_
+
+```
+https://community.simplilearn.com/attachments/workbench-build127-zip.33915/
+```
 ***Process for Creating RedShift***
 ```
 Go to Redshift; Select Cluster from the Main menu
