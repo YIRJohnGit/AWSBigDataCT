@@ -33,6 +33,14 @@ Go to Redshift; Select Cluster from the Main menu
 _Download the JDBC Driver from In My Account_ 
 ![image](https://user-images.githubusercontent.com/111234771/200164854-16801969-bcdd-40f6-b57f-9fa597fb75b6.png)
 
+```
+  In Cluster Session
+    Click on the Cluster Name < redshift-cluster-1 >
+```
+_Scroll Down to Cluster Session_ 
+![image](https://user-images.githubusercontent.com/111234771/200175924-b429c775-efd3-4481-80ba-5014ba3681fc.png)
+
+
 ### Step 2 - Creating S3 Bucket and Uploading the Files ###
 
 ### Step 3 - Connecting to SQL Workbech ###
