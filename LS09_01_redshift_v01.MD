@@ -24,10 +24,11 @@ Go to Redshift; Select Cluster from the Main menu
     Admin user name < awsuser >
     Admin user password < rootUsr321# >
     Click on the < Create Cluster > Button
+```
+![image](https://user-images.githubusercontent.com/111234771/200164535-316d9a57-2ab7-4ee2-a0a4-1381312092e1.png)
+```
   In My Account Session
     Click on the Download Driver Button for < JDBC 4.2 without AWS SDK (.jar) >
 ```
-![image](https://user-images.githubusercontent.com/111234771/200164535-316d9a57-2ab7-4ee2-a0a4-1381312092e1.png)
-
 _Download the JDBC Driver from In My Account_ 
 ![image](https://user-images.githubusercontent.com/111234771/200164854-16801969-bcdd-40f6-b57f-9fa597fb75b6.png)
