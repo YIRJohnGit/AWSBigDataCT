@@ -1,10 +1,10 @@
-# RedShift Clustering
+# Redshift Clustering
 
 ***Prerequisite***
 _Required workbench-build127_
 
 ```
-https://community.simplilearn.com/attachments/workbench-build127-zip.33915/
+https://github.com/YIRJohnGit/my_learning_AWSBigDataCertificationTraining/raw/main/Workbench-Build127.zip
 ```
 ***Process for Creating RedShift***
 ```
