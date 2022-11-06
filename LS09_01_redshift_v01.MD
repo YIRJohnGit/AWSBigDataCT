@@ -37,8 +37,12 @@ _Download the JDBC Driver from In My Account_
   In Cluster Session
     Click on the Cluster Name < redshift-cluster-1 >
 ```
-_Scroll Down to Cluster Session_ 
+_Scroll Down to Cluster Session and Click on the Name of Cluster_ 
 ![image](https://user-images.githubusercontent.com/111234771/200175924-b429c775-efd3-4481-80ba-5014ba3681fc.png)
+
+
+![image](https://user-images.githubusercontent.com/111234771/200176218-3d6ccfb5-c3a8-423f-b7e7-d7acfef72742.png)
+
 
 
 ### Step 2 - Creating S3 Bucket and Uploading the Files ###
