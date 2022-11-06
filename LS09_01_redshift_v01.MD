@@ -1,7 +1,7 @@
 # Redshift Clustering
 
 ***Prerequisite***
-_Required workbench-build127_
+_Required Download workbench-build127_
 
 ```
 https://github.com/YIRJohnGit/my_learning_AWSBigDataCertificationTraining/raw/main/Workbench-Build127.zip
