@@ -9,7 +9,7 @@ https://github.com/YIRJohnGit/my_learning_AWSBigDataCertificationTraining/raw/ma
 ***Process for Creating RedShift***
 ```
 Go to Redshift; Select Cluster from the Main menu
-  In Cluster Configuration Session
+  In < Cluster Configuration > Session
     Amazon Redshift > Cluster > Create Cluster
     Cluster identifier < redshift-cluster-1 >
     Cluster Plan < Free Trail > 
