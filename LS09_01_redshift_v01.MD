@@ -127,6 +127,12 @@ Scroll Down to < Associated IAM roles >
 _IAM Role Attachement_
 ![image](https://user-images.githubusercontent.com/111234771/200309335-1a69395c-f670-4a92-bc98-50d51607de10.png)
 
+_View attached IAM role to the Cluster_
+![image](https://user-images.githubusercontent.com/111234771/200309618-6c50c7b9-e5db-42fa-976e-549ca59bca1f.png)
+
+
+
+
 ### Step 3 - Creating S3 Bucket and Uploading the Files ###
 
 ### Step 4 - Connecting to SQL Workbech ###
