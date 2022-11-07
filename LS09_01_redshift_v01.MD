@@ -387,7 +387,29 @@ CREATE TABLE lineorder
 SELECT DISTINCT tablename FROM pg_table_def WHERE schemaname = 'public' ORDER BY tablename;
 ```
 _Reconnect_
+
 ![image](https://user-images.githubusercontent.com/111234771/200338879-626597e0-549b-44e4-ab71-f5aebf2a4818.png)
 
 _Displays List of all the Tables created _
+
 ![image](https://user-images.githubusercontent.com/111234771/200339110-77bec461-d61a-4743-8a59-9902a72696c7.png)
+
+***Copying the casecade table from S3 Bucket to the table***
+***Part 1 - Collect the S3 Bucket Name***
+![image](https://user-images.githubusercontent.com/111234771/200343366-37e384f5-732c-4d5f-bf8d-fe7fa9f5c614.png)
+
+***Part 2 - Collect the IAM Role's ARN Details***
+![image](https://user-images.githubusercontent.com/111234771/200343628-a12c94fa-04ee-400a-95c1-4a1b8a527f67.png)
+
+***Part 3 - Compose the COPY Part from template and replace with credential***
+__Template View__
+```
+copy part from 's3://<your-bucket-name>/load/part-csv.tbl' credentials 'aws_iam_role=arn:aws:iam::<aws-account-id>:role/<role-name>' csv;
+```
+__TO__
+```
+copy part from 's3://yirsmbucketredshiftv01/load/part-csv.tbl' credentials 'aws_iam_role=arn:aws:iam::951345542826:role/yirredshiftIAMrole' csv;
+```
+_Reconnect and Execute the Above Command in SQLWorkBench_
+![image](https://user-images.githubusercontent.com/111234771/200342933-96a039a0-f3cb-48ae-ab9b-fcbe2f8fa95f.png)
+
