@@ -114,7 +114,7 @@ jdbc:redshift://redshift-cluster-1.c9oapnrco4q2.us-east-1.redshift.amazonaws.com
 _JDBC Copy COntent_
 ![image](https://user-images.githubusercontent.com/111234771/200303009-3f275d91-3817-43b5-8512-2b8b74c9ce05.png)
 
-***Adding IAM Role to the Redshift Cluster (Ensure the redshift cluster is available) and Selected Propoerties Tab***
+***...For Adding IAM Role to the Redshift Cluster (Ensure the redshift cluster is available) and Selected Propoerties Tab***
 ![image](https://user-images.githubusercontent.com/111234771/200308880-9ba146b3-8774-4241-8577-34cf9112bf15.png)
 
 ![image](https://user-images.githubusercontent.com/111234771/200309024-03ecb60c-af11-404b-b3e5-570d6c95b105.png)
@@ -130,8 +130,12 @@ _IAM Role Attachement_
 _View attached IAM role to the Cluster_
 ![image](https://user-images.githubusercontent.com/111234771/200309618-6c50c7b9-e5db-42fa-976e-549ca59bca1f.png)
 
-
-
+***...For Adding Security Roles to the Cluster***
+![image](https://user-images.githubusercontent.com/111234771/200309950-a7f820c4-1c9c-4a09-b4d1-135405fe91e5.png)
+```
+  Go to the < Network and security settings > in the Cluster < redshift-cluster-1 >
+  
+```
 
 ### Step 3 - Creating S3 Bucket and Uploading the Files ###
 
