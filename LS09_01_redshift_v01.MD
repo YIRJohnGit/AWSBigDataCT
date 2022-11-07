@@ -114,7 +114,18 @@ jdbc:redshift://redshift-cluster-1.c9oapnrco4q2.us-east-1.redshift.amazonaws.com
 _JDBC Copy COntent_
 ![image](https://user-images.githubusercontent.com/111234771/200303009-3f275d91-3817-43b5-8512-2b8b74c9ce05.png)
 
+***Adding IAM Role to the Redshift Cluster (Ensure the redshift cluster is available) and Selected Propoerties Tab***
+![image](https://user-images.githubusercontent.com/111234771/200308880-9ba146b3-8774-4241-8577-34cf9112bf15.png)
 
+![image](https://user-images.githubusercontent.com/111234771/200309024-03ecb60c-af11-404b-b3e5-570d6c95b105.png)
+
+```
+Scroll Down to < Associated IAM roles >
+  Click on the < Assoctae IAM Role utton >
+  Tick the < >
+```
+_IAM Role Attachement_
+![image](https://user-images.githubusercontent.com/111234771/200309335-1a69395c-f670-4a92-bc98-50d51607de10.png)
 
 ### Step 3 - Creating S3 Bucket and Uploading the Files ###
 
