@@ -238,9 +238,36 @@ _Search Result for S3 Bucket_
 ![image](https://user-images.githubusercontent.com/111234771/200325410-04241214-8e50-47ba-8e3a-809531e1e9f8.png)
 
 ***In Create Bucket***
+```
   In < General Configuration > Session 
     Bucket Name < yirsmbucketredshiftv01 >
     AWS Region < us-east-1 >
-    
+    Click on < Create Bucket >
+```
 ![image](https://user-images.githubusercontent.com/111234771/200331363-10de6656-0dc7-445d-8286-725bb592f74b.png)
+![image](https://user-images.githubusercontent.com/111234771/200332437-f9c1d6c6-f06d-4046-ae52-aaacacf62d80.png)
+
+***...For Uploading the Files in S3 Bucket***
+```
+Click on < yirsmbucketredshift> Bucket
+  Crate a New Folder in the Bucket Tab < load > and Click on the Create Button
+  Click on the load Folder which is created
+    Click on Upload Button 
+    Click on Add Files <>
+      Click on Upload Button to add All the Files
+```
+
+![image](https://user-images.githubusercontent.com/111234771/200332747-1fcc727c-26ff-4621-83d1-151de8a45202.png)
+
+_Creating Load Folder_
+![image](https://user-images.githubusercontent.com/111234771/200332975-b40b1a9f-e607-46b5-90f8-38d5c3c99c8e.png)
+
+
+_Add Multiple Files_
+![image](https://user-images.githubusercontent.com/111234771/200333263-8e37af84-de7d-4b5c-80a7-4d4ba39e794f.png)
+![image](https://user-images.githubusercontent.com/111234771/200333427-f7fb2720-2638-4d38-8773-cfa22fec1368.png)
+![image](https://user-images.githubusercontent.com/111234771/200333498-73e0d396-1969-4132-a240-f7e8d87855be.png)
+
+_Verify the Files_
+![image](https://user-images.githubusercontent.com/111234771/200333680-4e1f150d-0d03-462e-8c4d-3d5e044e2485.png)
 
