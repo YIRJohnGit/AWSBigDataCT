@@ -62,9 +62,34 @@ jdbc:redshift://redshift-cluster-1.c9oapnrco4q2.us-east-1.redshift.amazonaws.com
 _JDBC Copy COntent_
 ![image](https://user-images.githubusercontent.com/111234771/200303009-3f275d91-3817-43b5-8512-2b8b74c9ce05.png)
 
+### Step 2 - Creating IAM Role in Another New Tab ###
+```
+Go to Main Menu, Search on the Menu Called < IAM >
+  Click on the < IAM > form the Menu
+  Click on Role from the Left Side Menu < Role >
+  Click on the Create Role Button from the Right Side Top Corner of the IAM > Roles > Tab
+  Next: Moves on to the < Create Role Tab to Change the Entity and the use case  >
+```
+_Create Role Tab_
+![image](https://user-images.githubusercontent.com/111234771/200304014-b25912b0-736a-46cf-94b0-254d919245d5.png)
 
-### Step 2 - Creating S3 Bucket and Uploading the Files ###
+_Select the Trusted Entity < IAM > Role > Create Role>_
+![image](https://user-images.githubusercontent.com/111234771/200304895-7c512acd-a304-4137-910a-aef19907a39a.png)
 
-### Step 3 - Connecting to SQL Workbech ###
+
+```
+In the < Moves on to the Create Role Tab to Change the Entity and the use case >
+  Go to Down to the < Use cases for other AWS services > Session, Search and Select Red
+  Click on the < Redshift - Customizable >
+  Click on the Button < Next >
+```
+_Search and Select the Redshift_
+![image](https://user-images.githubusercontent.com/111234771/200305321-4715076f-cdb4-4000-aaeb-60f061628105.png)
+![image](https://user-images.githubusercontent.com/111234771/200305399-ed6eb619-7a15-42ff-91c4-752f1c0d0788.png)
+
+
+### Step 3 - Creating S3 Bucket and Uploading the Files ###
+
+### Step 4 - Connecting to SQL Workbech ###
 ***Note:*** _If you dont Have the SQL Workbench, refer the prerequist link at the and dwnload the file_
 
