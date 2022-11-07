@@ -301,6 +301,10 @@ CREATE TABLE part
   p_container   VARCHAR(10) NOT NULL
 );
 ```
+_Confirmation Result for Creating Table_
+![image](https://user-images.githubusercontent.com/111234771/200336141-0e6d3d7b-f02e-4211-a3b9-eb1cc6285ab0.png)
+
+
 ```
 CREATE TABLE supplier 
 (
