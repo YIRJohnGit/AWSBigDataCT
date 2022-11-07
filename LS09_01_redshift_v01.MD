@@ -226,3 +226,21 @@ https://docs.aws.amazon.com/redshift/latest/dg/tutorial-loading-data-download-fi
 _Sample View Download the Data Files_
 ![image](https://user-images.githubusercontent.com/111234771/200324206-2dc2d558-b962-4bea-bc07-312ce99d03d7.png)
 
+
+***...For Creating the S3 Buckets***
+```
+Go to, Amazon S3 from the AWS Search Console
+  Click on < Create Bucket > Button 
+  Next Moves to < Create Bucket > Tab 
+```
+
+_Search Result for S3 Bucket_
+![image](https://user-images.githubusercontent.com/111234771/200325410-04241214-8e50-47ba-8e3a-809531e1e9f8.png)
+
+***In Create Bucket***
+  In < General Configuration > Session 
+    Bucket Name < yirsmbucketredshiftv01 >
+    AWS Region < us-east-1 >
+    
+![image](https://user-images.githubusercontent.com/111234771/200331363-10de6656-0dc7-445d-8286-725bb592f74b.png)
+
