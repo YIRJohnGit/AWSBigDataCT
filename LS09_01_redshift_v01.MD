@@ -101,9 +101,18 @@ _Add Permission_
 
 
 ```
-In the < Name, review and create View
-  
+In the < Name, review and create > View
+  In the < Role Details > Session
+    Role Name  < yirredshiftIAMrole >
+    Scroll Down Click on button < Create Role >
 ```
+_Role Details Session_
+![image](https://user-images.githubusercontent.com/111234771/200307641-d18d4fbb-cd89-4c60-b17f-cf1de01f7084.png)
+
+_Create Role View_
+![image](https://user-images.githubusercontent.com/111234771/200307824-084250f5-a916-4345-a9b0-31cccda20130.png)
+
+
 
 ### Step 3 - Creating S3 Bucket and Uploading the Files ###
 
