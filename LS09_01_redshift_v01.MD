@@ -82,11 +82,28 @@ In the < Moves on to the Create Role Tab to Change the Entity and the use case >
   Go to Down to the < Use cases for other AWS services > Session, Search and Select Red
   Click on the < Redshift - Customizable >
   Click on the Button < Next >
+  <! Next Move on the < Add Permission >  Tab !>
 ```
 _Search and Select the Redshift_
 ![image](https://user-images.githubusercontent.com/111234771/200305321-4715076f-cdb4-4000-aaeb-60f061628105.png)
-![image](https://user-images.githubusercontent.com/111234771/200305399-ed6eb619-7a15-42ff-91c4-752f1c0d0788.png)
 
+![image](https://user-images.githubusercontent.com/111234771/200305934-d95830d4-929f-4c97-a832-114ba17ea15e.png)
+
+```
+  In the < Add Permission >  Tab
+    Search and Select < AmazonS3FullAccess >
+    Tick the Select the < AmazonS3FullAccess >
+    Click on the < Next > Buttn
+    <! Next Moves to Name, review and create! > View
+```
+_Add Permission_
+![image](https://user-images.githubusercontent.com/111234771/200306627-85b14eeb-2974-40da-8566-8289d137a24e.png)
+
+
+```
+In the < Name, review and create View
+  
+```
 
 ### Step 3 - Creating S3 Bucket and Uploading the Files ###
 
