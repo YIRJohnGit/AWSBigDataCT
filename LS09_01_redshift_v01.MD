@@ -211,7 +211,9 @@ Go to File Menu, Select < Connect Window > from the Menu
 _Connected Window_
 ![image](https://user-images.githubusercontent.com/111234771/200319103-ca9445e0-ae20-4596-bfb0-9e923e69642f.png)
 
+
 __Once the Connectin Established you will get result on the url bar__
+
 ![image](https://user-images.githubusercontent.com/111234771/200322117-2bc2976e-ae76-4024-92fe-cccc04f59104.png)
 
 
