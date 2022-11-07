@@ -219,6 +219,10 @@ __Once the Connectin Established you will get result on the url bar__
 
 
 ### Step 4 - Creating S3 Bucket and Uploading the Files ###
-
-
+***...For Downloading the Data Files from AWS URL***
+```
+https://docs.aws.amazon.com/redshift/latest/dg/tutorial-loading-data-download-files.html
+```
+_Sample View Download the Data Files_
+![image](https://user-images.githubusercontent.com/111234771/200324206-2dc2d558-b962-4bea-bc07-312ce99d03d7.png)
 
