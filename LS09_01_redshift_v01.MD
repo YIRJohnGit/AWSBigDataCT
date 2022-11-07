@@ -413,3 +413,10 @@ copy part from 's3://yirsmbucketredshiftv01/load/part-csv.tbl' credentials 'aws_
 _Reconnect and Execute the Above Command in SQLWorkBench_
 ![image](https://user-images.githubusercontent.com/111234771/200342933-96a039a0-f3cb-48ae-ab9b-fcbe2f8fa95f.png)
 
+***Part 4 - Verify the Records in SQLWorkBench***
+```
+select * from part;
+```
+
+_List of Records_
+![image](https://user-images.githubusercontent.com/111234771/200345574-5f717673-308b-4de7-9ae2-ec10d6cc76f2.png)
