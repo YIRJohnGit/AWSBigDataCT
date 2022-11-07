@@ -163,9 +163,21 @@ _Updated the Security rule_
 ![image](https://user-images.githubusercontent.com/111234771/200312083-93d02b65-f986-4dde-bcac-e8e98803d938.png)
 
 
+### Step 3 - Testing the Connection  to SQL Workbech ###
+```
+  Download Work Bench
+  Download the JDBC Jar File
+```
 
-### Step 3 - Creating S3 Bucket and Uploading the Files ###
+***Note:*** _If you dont Have the SQLWorkbench,Download from the below Link_
+```
+https://github.com/YIRJohnGit/my_learning_AWSBigDataCertificationTraining/raw/main/Workbench-Build127.zip
+```
+_Download the JDBC_
+![image](https://user-images.githubusercontent.com/111234771/200316833-163bcb44-c829-4016-811f-37ebbe98d45c.png)
 
-### Step 4 - Connecting to SQL Workbech ###
-***Note:*** _If you dont Have the SQL Workbench, refer the prerequist link at the and dwnload the file_
+
+### Step 4 - Creating S3 Bucket and Uploading the Files ###
+
+
 
