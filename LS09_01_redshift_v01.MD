@@ -262,6 +262,8 @@ Click on < yirsmbucketredshift> Bucket
 _Creating Load Folder_
 ![image](https://user-images.githubusercontent.com/111234771/200332975-b40b1a9f-e607-46b5-90f8-38d5c3c99c8e.png)
 
+_Get Inside the Load folder Create for Uploading Files_
+![image](https://user-images.githubusercontent.com/111234771/200334007-8609cb75-9a0f-4276-88cb-5837cb8f9220.png)
 
 _Add Multiple Files_
 ![image](https://user-images.githubusercontent.com/111234771/200333263-8e37af84-de7d-4b5c-80a7-4d4ba39e794f.png)
