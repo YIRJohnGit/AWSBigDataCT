@@ -165,7 +165,7 @@ _Updated the Security rule_
 
 ### Step 3 - Testing the Connection  to SQL Workbech ###
 ```
-  Download Work Bench
+  Download SQLWorkBench and Extract on your local machine
   Download the JDBC Jar File
 ```
 
@@ -173,8 +173,47 @@ _Updated the Security rule_
 ```
 https://github.com/YIRJohnGit/my_learning_AWSBigDataCertificationTraining/raw/main/Workbench-Build127.zip
 ```
-_Download the JDBC_
+_Download the JDBC Driver from Redshift Cluster_
 ![image](https://user-images.githubusercontent.com/111234771/200316833-163bcb44-c829-4016-811f-37ebbe98d45c.png)
+
+***Start SQLWorkbench Based on your system, and i am using 64bit***
+_Extracted File Location_
+![image](https://user-images.githubusercontent.com/111234771/200317549-4e5fc875-eec0-44bf-9a1d-0563b23fd7e6.png)
+
+***For Configuring the Manager Driver***
+```
+  Click on File Menu
+    Click on Manager Driver
+      Click on the Amazon Redshift from the Left Side List Menu
+        Name < Amazon Redshift >
+        Library <redshift-jdbc42-2.0.0.4.jar>
+```
+![image](https://user-images.githubusercontent.com/111234771/200317870-9b6d196a-4f94-4d92-9c34-9ee61f087807.png)
+
+![image](https://user-images.githubusercontent.com/111234771/200318121-1d39badf-abb5-4137-ba62-3410a13654ea.png)
+
+_Update the JDBC JAR Library_
+![image](https://user-images.githubusercontent.com/111234771/200318515-bd2fbc79-49e6-45a3-ae79-7dff6bd12c53.png)
+
+
+***For Connecting to the JDBC***
+```
+Go to File Menu, Select < Connect Window > from the Menu
+  Update the Profile Name < yir_redshift_v01 >
+  Select the < Drive > from the List < Amazon Redshift (com.amazon.redshift.Driver) > 
+  Paste the < URL > < jdbc:redshift://redshift-cluster-1.c9oapnrco4q2.us-east-1.redshift.amazonaws.com:5439/dev >
+  Update the Username < awsuser >
+  UPdate the Password < ******** >
+  Click on < OK > Button 
+```
+![image](https://user-images.githubusercontent.com/111234771/200318622-dc27d95e-e746-4347-b605-1c40e2bad1d2.png)
+
+_Connected Window_
+![image](https://user-images.githubusercontent.com/111234771/200319103-ca9445e0-ae20-4596-bfb0-9e923e69642f.png)
+
+__Once the Connectin Established you will get result on the url bar__
+![image](https://user-images.githubusercontent.com/111234771/200322117-2bc2976e-ae76-4024-92fe-cccc04f59104.png)
+
 
 
 ### Step 4 - Creating S3 Bucket and Uploading the Files ###
