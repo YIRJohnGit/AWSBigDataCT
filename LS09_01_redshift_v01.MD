@@ -54,7 +54,7 @@ _Enable Pblically Accessable_
 __
 ![image](https://user-images.githubusercontent.com/111234771/200302060-cdab8711-aac8-4869-8dbe-60d7f8c8970e.png)
 ![image](https://user-images.githubusercontent.com/111234771/200302440-190b7964-8a68-4147-bb29-41624f2d0b07.png)
-![image](https://user-images.githubusercontent.com/111234771/200302681-d8f7a731-fa52-4b74-82fb-f534f9c537c0.png)
+
 __Example: of JDBC__
 ```
 jdbc:redshift://redshift-cluster-1.c9oapnrco4q2.us-east-1.redshift.amazonaws.com:5439/dev
