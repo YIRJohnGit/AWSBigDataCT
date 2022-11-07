@@ -276,4 +276,6 @@ _Verify the Files_
 
 
 ### Step 5 - Creating the Tables in RedShift usin SQLWorkBench ###
-***Start the SQLWorkbench ***
+***Start the SQLWorkbench follow the Step 3***
+```
+```
