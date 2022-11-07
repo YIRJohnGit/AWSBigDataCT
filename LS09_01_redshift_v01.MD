@@ -131,11 +131,38 @@ _View attached IAM role to the Cluster_
 ![image](https://user-images.githubusercontent.com/111234771/200309618-6c50c7b9-e5db-42fa-976e-549ca59bca1f.png)
 
 ***...For Adding Security Roles to the Cluster***
+
+```
+  Go to the < Network and security settings > Session in the Cluster < redshift-cluster-1 >
+    Moves on to < Security Group > View
+      Scroll Down and Select Inbound Rules 
+        Click on the < Edit Inbound Rules > Button 
+        Moves on to the < Edit Inboud Rules > Tab
+```
+_Network and security settings Session_
 ![image](https://user-images.githubusercontent.com/111234771/200309950-a7f820c4-1c9c-4a09-b4d1-135405fe91e5.png)
+
+_Security Group View_
+![image](https://user-images.githubusercontent.com/111234771/200310378-733fe2c9-b1da-4595-8026-63dcfe762bb0.png)
+
+_Invound Rule View_
+![image](https://user-images.githubusercontent.com/111234771/200311221-6ffcf885-4c42-4250-9e21-c943ae186423.png)
+
 ```
-  Go to the < Network and security settings > in the Cluster < redshift-cluster-1 >
-  
+  In the < Edit inbound Rules Tab >
+    Click on the < Add rule >
+    Click on the Type and Change it to < Redshift>
+    Click on Source and Change it to < Anywhere >
+    Click on the < Save Rules > button  
 ```
+
+_Edit inbound Rules_
+![image](https://user-images.githubusercontent.com/111234771/200311699-0dde871c-ca32-4905-b735-8dcd65bc5fa1.png)
+
+_Updated the Security rule_
+![image](https://user-images.githubusercontent.com/111234771/200312083-93d02b65-f986-4dde-bcac-e8e98803d938.png)
+
+
 
 ### Step 3 - Creating S3 Bucket and Uploading the Files ###
 
