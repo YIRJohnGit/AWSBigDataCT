@@ -377,3 +377,17 @@ CREATE TABLE lineorder
   lo_shipmode          VARCHAR(10) NOT NULL
 );
 ```
+
+***To Verify the Table List***
+```
+  Go to < File > Menu Select  Reconnect, 
+  After Successfull reconnect run the below
+```
+```
+SELECT DISTINCT tablename FROM pg_table_def WHERE schemaname = 'public' ORDER BY tablename;
+```
+_Reconnect_
+![image](https://user-images.githubusercontent.com/111234771/200338879-626597e0-549b-44e4-ab71-f5aebf2a4818.png)
+
+_Displays List of all the Tables created _
+![image](https://user-images.githubusercontent.com/111234771/200339110-77bec461-d61a-4743-8a59-9902a72696c7.png)
