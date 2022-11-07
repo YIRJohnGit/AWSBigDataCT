@@ -273,3 +273,7 @@ _Add Multiple Files_
 _Verify the Files_
 ![image](https://user-images.githubusercontent.com/111234771/200333680-4e1f150d-0d03-462e-8c4d-3d5e044e2485.png)
 
+
+
+### Step 5 - Creating the Tables in RedShift usin SQLWorkBench ###
+***Start the SQLWorkbench ***
