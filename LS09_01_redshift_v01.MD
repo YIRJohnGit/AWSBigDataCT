@@ -41,10 +41,26 @@ _Download the JDBC Driver from In My Account_
 _Scroll Down to Cluster Session and Click on the Name of Cluster_ 
 ![image](https://user-images.githubusercontent.com/111234771/200301367-32d7f50a-d743-4012-a505-bfae76305506.png)
 
-
 ![image](https://user-images.githubusercontent.com/111234771/200301567-2b15f8aa-7769-440d-8f36-1dd5326f339f.png)
 
-
+_Enable Pblically Accessable_
+```
+  In < redshift-cluster-1 > tab
+    Click on the < Actions > dropdown menu and Select < Modify Publicly accessible settings >
+    Tick the Checkbox < Turn on Publicly Accessible > 
+    Return back to In < redshift-cluster-1 > tab
+    Copy the Endpoint of < JDBC:redshift..... > URL 
+```
+__
+![image](https://user-images.githubusercontent.com/111234771/200302060-cdab8711-aac8-4869-8dbe-60d7f8c8970e.png)
+![image](https://user-images.githubusercontent.com/111234771/200302440-190b7964-8a68-4147-bb29-41624f2d0b07.png)
+![image](https://user-images.githubusercontent.com/111234771/200302681-d8f7a731-fa52-4b74-82fb-f534f9c537c0.png)
+__Example: of JDBC__
+```
+jdbc:redshift://redshift-cluster-1.c9oapnrco4q2.us-east-1.redshift.amazonaws.com:5439/dev
+```
+_JDBC Copy COntent_
+![image](https://user-images.githubusercontent.com/111234771/200303009-3f275d91-3817-43b5-8512-2b8b74c9ce05.png)
 
 
 ### Step 2 - Creating S3 Bucket and Uploading the Files ###
