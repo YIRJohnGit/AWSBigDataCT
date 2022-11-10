@@ -487,3 +487,12 @@ copy lineorder from 's3://awssampledb/load/lo/lineorder-multi.tbl'
   region 'us-east-1';
 ```
 ![image](https://user-images.githubusercontent.com/111234771/201227187-c60a8658-f432-456b-be70-e7b1abac92a6.png)
+
+### Cleaning Up ###
+```
+drop table part;
+drop table supplier;
+drop table customer;
+drop table dwdate;
+drop table lineorder;
+```
