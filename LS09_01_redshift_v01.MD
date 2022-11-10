@@ -94,9 +94,9 @@ _Download the JDBC Driver from In My Account_
 _Scroll Down to Cluster Session and Click on the Name of Cluster_ 
 ![image](https://user-images.githubusercontent.com/111234771/201219974-90d76acb-f435-4074-9211-219603b1e620.png)
 
-![image](https://user-images.githubusercontent.com/111234771/200301567-2b15f8aa-7769-440d-8f36-1dd5326f339f.png)
+![image](https://user-images.githubusercontent.com/111234771/201220607-ab594a26-0d49-4685-873c-17446f459ed0.png)
 
-_Enable Pblically Accessable_
+_Enable Publically Accessable_
 ```
   In < redshift-cluster-1 > tab
     Click on the < Actions > dropdown menu and Select < Modify Publicly accessible settings >
