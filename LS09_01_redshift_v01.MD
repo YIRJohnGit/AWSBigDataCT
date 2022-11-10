@@ -409,15 +409,33 @@ copy part from 's3://<your-bucket-name>/load/part-csv.tbl' credentials 'aws_iam_
 ```
 __TO__
 ```
-copy part from 's3://yirsmbucketredshiftv01/load/part-csv.tbl' credentials 'aws_iam_role=arn:aws:iam::951345542826:role/yirredshiftIAMrole' csv;
+copy part 
+  from 's3://yirsmbucketredshiftv01/load/part-csv.tbl' 
+  credentials 'aws_iam_role=arn:aws:iam::951345542826:role/yirredshiftIAMrole' 
+  csv;
 ```
 _Reconnect and Execute the Above Command in SQLWorkBench_
 ![image](https://user-images.githubusercontent.com/111234771/200342933-96a039a0-f3cb-48ae-ab9b-fcbe2f8fa95f.png)
 
 ***Part 4 - Verify the Records in SQLWorkBench***
 ```
-select * from part;
+select * from part limit 10;
 ```
 
-_List of Records_
-![image](https://user-images.githubusercontent.com/111234771/200345574-5f717673-308b-4de7-9ae2-ec10d6cc76f2.png)
+_List of Part Records_
+![image](https://user-images.githubusercontent.com/111234771/201224895-29c9d994-5260-4c38-bf15-000d89981d0f.png)
+
+```
+copy customer 
+  from 's3://yirsmbucketredshiftv01/load/customer-fw.tbl' 
+  credentials 'aws_iam_role=arn:aws:iam::951345542826:role/yirredshiftIAMrole'
+  fixedwidth 'c_custkey:10, c_name:25, c_address:25, c_city:10, c_nation:15, c_region :12, c_phone:15,c_mktsegment:10'
+  maxerror 10;
+```
+
+```
+select * from customer limit 10;
+```
+
+_List of Customer Records_
+![image](https://user-images.githubusercontent.com/111234771/201225108-ff48ee96-4098-44b8-9193-72bc1ecb98c6.png)
