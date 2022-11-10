@@ -92,6 +92,8 @@ _Download the JDBC Driver from In My Account_
     Move on to < redshift-cluster-1 > tab
 ```
 _Scroll Down to Cluster Session and Click on the Name of Cluster_ 
+![image](https://user-images.githubusercontent.com/111234771/201219974-90d76acb-f435-4074-9211-219603b1e620.png)
+111
 ![image](https://user-images.githubusercontent.com/111234771/200301367-32d7f50a-d743-4012-a505-bfae76305506.png)
 
 ![image](https://user-images.githubusercontent.com/111234771/200301567-2b15f8aa-7769-440d-8f36-1dd5326f339f.png)
