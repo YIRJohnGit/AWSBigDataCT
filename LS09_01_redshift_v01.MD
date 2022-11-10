@@ -1,12 +1,12 @@
 # Redshift Clustering
 
-***Prerequisite***
+## Prerequisite ##
 _Required Download workbench-build127_
 
 ```
 https://github.com/YIRJohnGit/my_learning_AWSBigDataCertificationTraining/raw/main/Workbench-Build127.zip
 ```
-***Process for Creating RedShift***
+### Process for Creating RedShift ###
 ```
 Go to Redshift; Select Cluster from the Main menu
   In < Cluster Configuration > Session
@@ -16,6 +16,7 @@ Go to Redshift; Select Cluster from the Main menu
 ```
 
 ### Step 1 - Creating IAM Role in Another New Tab ###
+#### Process Creating IAM Role ####
 ```
 Go to Main Menu, Search on the Menu Called < IAM >
   Click on the < IAM > form the Menu
@@ -29,7 +30,7 @@ _Create Role Tab_
 _Select the Trusted Entity < IAM > Role > Create Role>_
 ![image](https://user-images.githubusercontent.com/111234771/200304895-7c512acd-a304-4137-910a-aef19907a39a.png)
 
-
+#### Process Creating IAM Role ####
 ```
 In the < Moves on to the Create Role Tab to Change the Entity and the use case >
   Go to Down to the < Use cases for other AWS services > Session, Search and Select Red
