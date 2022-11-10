@@ -403,6 +403,7 @@ _Displays List of all the Tables created _
 ![image](https://user-images.githubusercontent.com/111234771/200343628-a12c94fa-04ee-400a-95c1-4a1b8a527f67.png)
 
 ***Part 3 - Compose the COPY Part from template and replace with credential***
+__Note:-__ _Befor going ahead make sure all your files are uploaded in the S3 Bucket_
 __Template View__
 ```
 copy part from 's3://<your-bucket-name>/load/part-csv.tbl' credentials 'aws_iam_role=arn:aws:iam::<aws-account-id>:role/<role-name>' csv;
@@ -455,3 +456,17 @@ select * from customer limit 10;
 
 _List of Customer Records_
 ![image](https://user-images.githubusercontent.com/111234771/201225108-ff48ee96-4098-44b8-9193-72bc1ecb98c6.png)
+
+```
+copy dwdate from 's3://yirsmbucketredshiftv01/load/dwdate-tab.tbl'
+  credentials 'aws_iam_role=arn:aws:iam::951345542826:role/yirredshiftIAMrole'
+  delimiter '\t' 
+  dateformat 'auto';
+```
+![image](https://user-images.githubusercontent.com/111234771/201226524-765c32f7-5550-4116-8116-db6273d41b47.png)
+
+```
+select * from dwdate limit 10;
+```
+![image](https://user-images.githubusercontent.com/111234771/201226584-2d958633-6b83-4134-bf4a-0198ccf438d6.png)
+
