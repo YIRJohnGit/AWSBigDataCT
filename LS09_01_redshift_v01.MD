@@ -470,3 +470,20 @@ select * from dwdate limit 10;
 ```
 ![image](https://user-images.githubusercontent.com/111234771/201226584-2d958633-6b83-4134-bf4a-0198ccf438d6.png)
 
+***Loading Single File***
+```
+copy lineorder from 's3://awssampledb/load/lo/lineorder-single.tbl' 
+  credentials 'aws_iam_role=arn:aws:iam::951345542826:role/yirredshiftIAMrole'
+  gzip
+  compupdate off
+  region 'us-east-1';
+```
+***Loading Multiple Files***
+```
+copy lineorder from 's3://awssampledb/load/lo/lineorder-multi.tbl' 
+  credentials 'aws_iam_role=arn:aws:iam::951345542826:role/yirredshiftIAMrole'
+  gzip
+  compupdate off
+  region 'us-east-1';
+```
+![image](https://user-images.githubusercontent.com/111234771/201227187-c60a8658-f432-456b-be70-e7b1abac92a6.png)
