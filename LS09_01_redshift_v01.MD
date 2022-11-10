@@ -426,6 +426,22 @@ _List of Part Records_
 ![image](https://user-images.githubusercontent.com/111234771/201224895-29c9d994-5260-4c38-bf15-000d89981d0f.png)
 
 ```
+copy supplier from 's3://awssampledb/ssbgz/supplier.tbl' 
+  credentials 'aws_iam_role=arn:aws:iam::951345542826:role/yirredshiftIAMrole'
+  delimiter '|' 
+  gzip
+  region 'us-east-1';
+```
+
+![image](https://user-images.githubusercontent.com/111234771/201225962-009c3426-c72c-41ec-b8a9-885e623112b8.png)
+
+```
+  select * from supplier limit 10 ;
+```
+![image](https://user-images.githubusercontent.com/111234771/201226082-59b37d95-4368-474d-9b0c-5d13b35bb401.png)
+
+
+```
 copy customer 
   from 's3://yirsmbucketredshiftv01/load/customer-fw.tbl' 
   credentials 'aws_iam_role=arn:aws:iam::951345542826:role/yirredshiftIAMrole'
