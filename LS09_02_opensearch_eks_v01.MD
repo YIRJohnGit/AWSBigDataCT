@@ -166,7 +166,9 @@ _Clear Policy for Visual Editor_
   Collect the IP Address from the Different Tab < 103.172.208.198 > and Enter in Principal < 103.172.208.198 >
   Select the Action < Allow >
   Click on < Save Chages > Button 
-  
+```
+```
+https://whatismyipaddress.com/
 ```
 _Collecting Current IP Address_
 ![image](https://user-images.githubusercontent.com/111234771/201410134-9c9787ca-03e2-4428-90bc-628ccca83501.png)
