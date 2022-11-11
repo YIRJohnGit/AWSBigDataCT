@@ -1,6 +1,23 @@
 # Elastic Search @ LS_09_02_20221105_10:00PM
 ## Task: Create EC2 Instance and Attach Admin Role to it, then install Client Side POSTManAPI in local machine ##
 
+### Creating Linux EC2 Instance ###
+```
+ Go to Main Menu > Click on EC2 > Click on the Launch Instances
+  In the < Launch an instance > Section
+   Name and tags < yir-ec2-instance-putty-connect >
+   Application and OS Image < Amazon Linux AWS > ( ami-09d3b3274b6c5d4aa )
+   Key pair (login), Click on < Create New Key Pair >
+    Key Pair Name < yirec2connet-keypair > 
+    Key Pair Type < RSA >
+    Private Key File Format < .pem >
+```
+_Menu Selection for EC2 Instance_
+![image](https://user-images.githubusercontent.com/111234771/201269519-1798b6c3-3088-4bbf-b2e5-99de7751fbba.png)
+
+_Creating the Key Pair from Key Pair Login Section_
+![image](https://user-images.githubusercontent.com/111234771/201270275-3fde04d8-bd78-4821-ba9c-d9d27ab1137e.png)
+
 
 __Download Postman from the below link__
 ```
