@@ -124,6 +124,9 @@ _Save the file to .ppk_
   Go to Instance and Collect Public IPV4 Address < 3.88.34.177 >
   
   Select PuTTy
+    Go to < Session > Tree Structure , Select Host Name (IP Address)  < 3.88.34.177 >
+    Go to < Connection >> SSH >> Auth >> Credentials >> Select Browse Button >
+    Select The .PPK File and Click < Open >
     
 ```
 
