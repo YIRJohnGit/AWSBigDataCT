@@ -145,3 +145,34 @@ _In Ready Stat (Will take Time 5 to 10 Min based on your net speed)_
 _Resule:- (Anonymous is not authorized)_
 ![image](https://user-images.githubusercontent.com/111234771/201408313-3078dd89-8960-4ff3-af23-e1a39ead2497.png)
 
+### Enableing Acces Control ###
+```
+ Go to the Actions, Edit Security Configuration >
+  In The < Edit Security Configuration > View
+   Go to < Access Policy > Section 
+    Click on the < Visual Editor > Tab
+     Click on < Clear Policy > Button
+```
+_Clear Policy for Visual Editor_
+![image](https://user-images.githubusercontent.com/111234771/201409284-80006ab6-da8b-4724-bb95-ecabc7a35c20.png)
+
+![image](https://user-images.githubusercontent.com/111234771/201409125-f6ce46e5-7de4-49d1-a452-07cb874edef0.png)
+
+
+#### Configuring IP to the Instance ####
+```
+ Go to < Elements >Section 
+  Select Type < IPv4 Address >
+  Collect the IP Address from the Different Tab < 103.172.208.198 > and Enter in Principal < 103.172.208.198 >
+  Select the Action < Allow >
+  Click on < Save Chages > Button 
+  
+```
+_Collecting Current IP Address_
+![image](https://user-images.githubusercontent.com/111234771/201410134-9c9787ca-03e2-4428-90bc-628ccca83501.png)
+
+_Updating the IP Address in the Visual Editor's Principal_
+![image](https://user-images.githubusercontent.com/111234771/201409943-4375c6bb-2cb1-4213-a158-c2c9c7b7830d.png)
+
+![image](https://user-images.githubusercontent.com/111234771/201410332-5535916f-1339-44e8-b995-5fe396e9e397.png)
+
