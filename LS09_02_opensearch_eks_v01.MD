@@ -136,4 +136,12 @@ __Verify Amazon opensearch in AWS Concole__
 _In Ready Stat (Will take Time 5 to 10 Min based on your net speed)_
 ![image](https://user-images.githubusercontent.com/111234771/201404451-3591a62f-efa9-4812-a239-b9f1d8bd330f.png)
 
+```
+ Get Inside the the Amazon OpenSearch SERVICE >> dOMAIN >> < my-transcribe-test >
+  Click on the Link
+```
+![image](https://user-images.githubusercontent.com/111234771/201408013-4b5a9296-e5cf-4b79-8842-4142ffc94b62.png)
+
+_Resule:- (Anonymous is not authorized)_
+![image](https://user-images.githubusercontent.com/111234771/201408313-3078dd89-8960-4ff3-af23-e1a39ead2497.png)
 
