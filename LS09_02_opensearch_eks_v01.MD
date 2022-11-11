@@ -15,7 +15,7 @@
    In < Network settings > Section
     Network < vpc-01a17e1bfddb0384d >
     Check the tick btton < Allow SSH traffic from >
-    
+    Click on < Launch Instance >
 ```
 _Menu Selection for EC2 Instance_
 ![image](https://user-images.githubusercontent.com/111234771/201269519-1798b6c3-3088-4bbf-b2e5-99de7751fbba.png)
@@ -23,6 +23,13 @@ _Menu Selection for EC2 Instance_
 _Creating the Key Pair from Key Pair Login Section_
 ![image](https://user-images.githubusercontent.com/111234771/201270275-3fde04d8-bd78-4821-ba9c-d9d27ab1137e.png)
 
+_IN The Network Section_
+![image](https://user-images.githubusercontent.com/111234771/201272469-3fe59711-10de-45f5-b6d0-0080b0c8f693.png)
+
+### Creating and Connecting IAM Admin Role ###
+```
+ 
+```
 
 __Download Postman from the below link__
 ```
