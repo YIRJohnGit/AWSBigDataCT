@@ -7,6 +7,11 @@ __Download Postman from the below link__
 https://www.postman.com/downloads/
 ```
 
+__AWS Configuring__
+```
+aws configure
+```
+
 ```
 aws --version
 ```
