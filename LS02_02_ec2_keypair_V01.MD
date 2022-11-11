@@ -100,3 +100,32 @@ _Key Pair Section_
 
 _Launch Summary View_
 ![image](https://user-images.githubusercontent.com/111234771/201302797-f0965ba6-5238-499d-ba79-aacd6b66d417.png)
+
+### Converting .pem File to .ppk for Linux Connection ###
+
+#### Converting .pem to PPK using PuTTYKeyGen ####
+```
+  Go to Putty Gen
+    Click on load Button
+      Select the .pem File
+      Click ON < Save Private Key > button
+      Provide the file name < ec2keyFeshPair >
+      Close the puTTYGen Dialog Window
+```
+
+_.pem File Select Views_
+![image](https://user-images.githubusercontent.com/111234771/201305126-ab109759-7537-432d-8735-3da3d424699a.png)
+
+_Save the file to .ppk_
+![image](https://user-images.githubusercontent.com/111234771/201305835-3491e885-c83f-4991-9a20-15d6acc0cf47.png)
+
+#### Connting using PuTTy ####
+```
+  Go to Instance and Collect Public IPV4 Address < 3.88.34.177 >
+  
+  Select PuTTy
+    
+```
+
+_Linux Instance View_
+![image](https://user-images.githubusercontent.com/111234771/201306292-beaba701-29f8-480f-b147-fa4d411e0760.png)
