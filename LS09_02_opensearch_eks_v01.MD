@@ -176,3 +176,5 @@ _Updating the IP Address in the Visual Editor's Principal_
 
 ![image](https://user-images.githubusercontent.com/111234771/201410332-5535916f-1339-44e8-b995-5fe396e9e397.png)
 
+_Open Search Final Result_
+![image](https://user-images.githubusercontent.com/111234771/201412461-d8509753-9e25-4aea-bba2-e6c0a3814ac9.png)
