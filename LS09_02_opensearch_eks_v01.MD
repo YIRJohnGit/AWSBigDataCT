@@ -11,6 +11,11 @@
     Key Pair Name < yirec2connet-keypair > 
     Key Pair Type < RSA >
     Private Key File Format < .pem >
+    Click on the < Create Key Pair > button
+   In < Network settings > Section
+    Network < vpc-01a17e1bfddb0384d >
+    Check the tick btton < Allow SSH traffic from >
+    
 ```
 _Menu Selection for EC2 Instance_
 ![image](https://user-images.githubusercontent.com/111234771/201269519-1798b6c3-3088-4bbf-b2e5-99de7751fbba.png)
