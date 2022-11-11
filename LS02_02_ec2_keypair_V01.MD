@@ -4,13 +4,20 @@
 
 ### Process for Creating Windows Instance ###
 ```
-  Go to Main Menus, Sear and Select Launch Instance, 
+  Go to Main Menus, Sear and Select < Launch Instance >, 
     In Launch an Instance Tab
       In < Name and Tags > Section, Name < WindowsServer >,Then
       Select < Windows > from the < Quick Start Session > 
       Select Different type of Insnace < Windows Server 2022 >
       Instance Type < t2.micro > free Tier
-      
+```
+_Launch Instance Section_
+![image](https://user-images.githubusercontent.com/111234771/201285861-6e9363f4-5ee4-40bc-b9a1-59b3e52ade43.png)
+
+_Quick Start Section_
+![image](https://user-images.githubusercontent.com/111234771/201286270-b8b4aed5-c6cd-40b5-961c-415470c36cbb.png)
+
+```
       In the < Key Pair (login) > Section
         Click on the Key Pair Name < ec2keyFreshPair >
         Click on the Private Key File Format < .pem > (Windows Need .PEM File Format)
@@ -19,6 +26,8 @@
       Retain Rest Same Default Setting
     Click on < Launch Instance >
 ```
+_Create Key Pair Section_
+![image](https://user-images.githubusercontent.com/111234771/201286421-68c5a07f-464e-4a1e-b772-523dc962e8b1.png)
 
 ```
   In the EC2 Instance
