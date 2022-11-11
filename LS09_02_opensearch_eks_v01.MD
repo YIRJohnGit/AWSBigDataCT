@@ -110,6 +110,8 @@ _Follow on screen instruction_
 ```
 sudo ./aws/install --update
 ```
+### Amazon OpenSearch Service Create ###
+
 ***Colect the AWS Account ID***
 ```
 951345542826
