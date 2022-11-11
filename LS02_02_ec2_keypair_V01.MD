@@ -129,3 +129,7 @@ _Save the file to .ppk_
 
 _Linux Instance View_
 ![image](https://user-images.githubusercontent.com/111234771/201306292-beaba701-29f8-480f-b147-fa4d411e0760.png)
+
+_Putty Windows_
+![image](https://user-images.githubusercontent.com/111234771/201307725-614455ab-44bb-4723-964f-6559c6e31dfe.png)
+
