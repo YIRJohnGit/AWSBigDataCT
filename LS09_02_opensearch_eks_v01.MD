@@ -107,7 +107,9 @@ sudo ./aws/install -i /usr/local/aws-cli -b /usr/local/bin
 _Follow on screen instruction_
 ![image](https://user-images.githubusercontent.com/111234771/201252201-d1138f6f-eacb-4ae0-a8ad-dbd4a54f6393.png)
 
-
+```
+sudo ./aws/install --update
+```
 ***Colect the AWS Account ID***
 ```
 951345542826
@@ -115,8 +117,15 @@ _Follow on screen instruction_
 
 ***Create a Open Search using CLI***
 ```
-/usr/local/bin/aws opensearch create-domain --domain-name my-transcribe-test --engine-version OpenSearch_1.0 --cluster-config  InstanceType=t2.medium.search,InstanceCount=1 --ebs-options EBSEnabled=true,VolumeType=standard,VolumeSize=10 --access-policies '{"Version":"2012-10-17","Statement":[{"Effect":"Allow","Principal":{"AWS":"arn:aws:iam:: 951345542826:root"},"Action":"es:*","Resource":"arn:aws:es:us-west-2: 951345542826:domain/my-transcribe-test/*"}]}' --region us-east-1
+/usr/local/bin/aws opensearch create-domain --domain-name my-transcribe-test --engine-version OpenSearch_1.0 --cluster-config  InstanceType=t2.medium.search,InstanceCount=1 --ebs-options EBSEnabled=true,VolumeType=standard,VolumeSize=10 --access-policies '{"Version":"2012-10-17","Statement":[{"Effect":"Allow","Principal":{"AWS":"arn:aws:iam::951345542826:root"},"Action":"es:*","Resource":"arn:aws:es:us-west-2:951345542826:domain/my-transcribe-test/*"}]}' --region us-east-1
 ```
+
+_Create Open Search Using CLI_
+![image](https://user-images.githubusercontent.com/111234771/201401829-440c5fa8-e231-4238-b62d-a2807f0bdbd2.png)
+![image](https://user-images.githubusercontent.com/111234771/201401987-c54185eb-174e-4217-adb4-f15908ca5d80.png)
+
+![image](https://user-images.githubusercontent.com/111234771/201401930-8d957faa-e677-476d-8c3d-3ab4fef93cba.png)
+
 
 
 __Verify Amazonopensearch in AWS Concole__
