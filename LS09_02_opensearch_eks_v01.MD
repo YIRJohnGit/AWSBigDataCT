@@ -110,7 +110,7 @@ _Follow on screen instruction_
 ```
 sudo ./aws/install --update
 ```
-### Amazon OpenSearch Service Create ###
+### Amazon OpenSearch Service Create Using CLI ###
 
 ***Colect the AWS Account ID***
 ```
