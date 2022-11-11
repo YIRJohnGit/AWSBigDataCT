@@ -23,7 +23,7 @@ git branch -M main
 git push -u origin main
 ```
 
-### Download DataGrid ###
+### ...for downloading DataGrid ###
 ```
 https://www.jetbrains.com/datagrip/
 ```
