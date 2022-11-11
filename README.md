@@ -22,3 +22,8 @@ git remote add origin https://github.com/YIRJohnGit/my_learning_AWSBigDataCertif
 git branch -M main
 git push -u origin main
 ```
+
+### Download DataGrid ###
+```
+https://www.jetbrains.com/datagrip/
+```
