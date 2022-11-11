@@ -129,3 +129,5 @@ _Create Open Search Using CLI_
 
 
 __Verify Amazonopensearch in AWS Concole__
+![image](https://user-images.githubusercontent.com/111234771/201402613-81fb85cf-f54a-4b43-9716-f81889b45fdb.png)
+
