@@ -29,6 +29,13 @@ _Quick Start Section_
 _Create Key Pair Section_
 ![image](https://user-images.githubusercontent.com/111234771/201286421-68c5a07f-464e-4a1e-b772-523dc962e8b1.png)
 
+_Launch Summary Section_
+![image](https://user-images.githubusercontent.com/111234771/201286960-474f067d-0856-4abb-87f7-b32ae930be70.png)
+
+_Verify EC2 Instance_
+![image](https://user-images.githubusercontent.com/111234771/201289310-7077da0e-c399-41ae-a834-6549a07715c5.png)
+
+
 ```
   In the EC2 Instance
     Select the EC2 Instance < WindowsServer > , 
@@ -37,6 +44,10 @@ _Create Key Pair Section_
       Click on Get < Windows Password... >,
       Moved on to < Get Windows Password > Section tab
 ```
+***Note:- Wait for the Status Check to < 2/2 checks passed >***
+
+_Generating User Details for Windows using .PEM File Format_
+![image](https://user-images.githubusercontent.com/111234771/201287198-c0c7fa98-702a-4ede-a713-041ea42c3fdd.png)
 
 ```
    In < Get Windows Password > Section tab,
