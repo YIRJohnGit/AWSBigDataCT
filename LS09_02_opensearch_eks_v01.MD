@@ -24,3 +24,9 @@ sudo ./aws/install -i /usr/local/aws-cli -b /usr/local/bin
 _Follow on screen instruction_
 
 ***Colect the AWS Account ID***
+
+
+***Create a Open Search using CLI***
+```
+/usr/local/bin/aws opensearch create-domain --domain-name my-transcribe-test --engine-version OpenSearch_1.0 --cluster-config  InstanceType=t2.medium.search,InstanceCount=1 --ebs-options EBSEnabled=true,VolumeType=standard,VolumeSize=10 --access-policies '{"Version":"2012-10-17","Statement":[{"Effect":"Allow","Principal":{"AWS":"arn:aws:iam:: 951345542826:root"},"Action":"es:*","Resource":"arn:aws:es:us-west-2: 951345542826:domain/my-transcribe-test/*"}]}' --region us-east-1
+```
