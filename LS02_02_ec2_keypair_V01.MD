@@ -50,6 +50,7 @@ Public IPv4 DNS < ec2-44-202-81-240.compute-1.amazonaws.com >
 ```
 ***Note:- Wait for the Status Check to < 2/2 checks passed >***
 
+### Setting up for Remote Windows Connections ###
 _Generating User Details for Windows using .PEM File Format_
 ![image](https://user-images.githubusercontent.com/111234771/201287198-c0c7fa98-702a-4ede-a713-041ea42c3fdd.png)
 
