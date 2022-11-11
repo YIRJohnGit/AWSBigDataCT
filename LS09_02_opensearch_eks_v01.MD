@@ -133,3 +133,6 @@ _Create Open Search Using CLI_
 __Verify Amazon opensearch in AWS Concole__
 ![image](https://user-images.githubusercontent.com/111234771/201402613-81fb85cf-f54a-4b43-9716-f81889b45fdb.png)
 
+_In Ready Stat (Will take Time 5 to 10 Min based on your net speed)_
+![image](https://user-images.githubusercontent.com/111234771/201404312-9b366938-d57b-4e2c-80b2-81562cb17c83.png)
+
