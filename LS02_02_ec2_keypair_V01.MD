@@ -32,7 +32,11 @@ _Create Key Pair Section_
 _Launch Summary Section_
 ![image](https://user-images.githubusercontent.com/111234771/201286960-474f067d-0856-4abb-87f7-b32ae930be70.png)
 
-_Verify EC2 Instance_
+_Verify EC2 Instance and Collect _
+```
+Public IPv4 address < 44.202.81.240 >
+Public IPv4 DNS < ec2-44-202-81-240.compute-1.amazonaws.com >
+```
 ![image](https://user-images.githubusercontent.com/111234771/201289310-7077da0e-c399-41ae-a834-6549a07715c5.png)
 
 
@@ -57,9 +61,12 @@ _Generating User Details for Windows using .PEM File Format_
     
     User Name < Administrator >
     Password < 9p5k?u$91%Wg%gx2q50knoj6OA&X!Gdn > 
+    Click on Ok button to return to <Instance Dashboard View >
 ```
 _In Get Windows Password_
 ![image](https://user-images.githubusercontent.com/111234771/201290243-5581b5c7-3c85-430d-b6d5-d7d84d190afa.png)
 ![image](https://user-images.githubusercontent.com/111234771/201290548-755d1951-4984-47f8-a069-3a0650473fc2.png)
 
-
+###Connecting to Windows###
+```
+```
