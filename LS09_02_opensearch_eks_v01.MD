@@ -21,3 +21,6 @@ _Download the AWS Version 2 file_
 ```
 sudo ./aws/install -i /usr/local/aws-cli -b /usr/local/bin
 ```
+_Follow on screen instruction_
+
+***Colect the AWS Account ID***
