@@ -80,3 +80,23 @@ _Login with User Credential_
 
 
 ### Connecting to Linux Machine using Putty from .pem file ###
+```
+  Go To < Launch an instance > View
+    In the Name and Tags Section < linuxServer >
+    In Quick Start < Amazon Linux >
+    Select the KeyPair < ec2keyFeshPair >
+    Click on < Launch Instance >
+```
+
+_Launch an Instance Section_
+![image](https://user-images.githubusercontent.com/111234771/201302591-dfd6efc3-e098-4b71-bb65-a0a6cdbb57f2.png)
+
+
+_Quick Start_
+![image](https://user-images.githubusercontent.com/111234771/201302639-38f21346-5bf1-4e4a-8ef4-da6b3d76beec.png)
+
+_Key Pair Section_
+![image](https://user-images.githubusercontent.com/111234771/201302718-fe2c7731-9357-4a67-ae02-1d5b007dba47.png)
+
+_Launch Summary View_
+![image](https://user-images.githubusercontent.com/111234771/201302797-f0965ba6-5238-499d-ba79-aacd6b66d417.png)
