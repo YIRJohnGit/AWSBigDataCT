@@ -136,3 +136,6 @@ _Linux Instance View_
 _Putty Windows_
 ![image](https://user-images.githubusercontent.com/111234771/201307725-614455ab-44bb-4723-964f-6559c6e31dfe.png)
 
+_Select the .PPK_
+![image](https://user-images.githubusercontent.com/111234771/201320326-1b10e6de-3ba8-4e22-9386-3b6a2ffaa34b.png)
+
