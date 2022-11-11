@@ -32,7 +32,7 @@ _Create Key Pair Section_
 _Launch Summary Section_
 ![image](https://user-images.githubusercontent.com/111234771/201286960-474f067d-0856-4abb-87f7-b32ae930be70.png)
 
-_Verify EC2 Instance and Collect _
+_Verify EC2 Instance and Collect_
 ```
 Public IPv4 address < 44.202.81.240 >
 Public IPv4 DNS < ec2-44-202-81-240.compute-1.amazonaws.com >
