@@ -67,6 +67,12 @@ _In Get Windows Password_
 ![image](https://user-images.githubusercontent.com/111234771/201290243-5581b5c7-3c85-430d-b6d5-d7d84d190afa.png)
 ![image](https://user-images.githubusercontent.com/111234771/201290548-755d1951-4984-47f8-a069-3a0650473fc2.png)
 
-###Connecting to Windows###
+### Connecting to Windows ###
 ```
+  Go to Windows  < Remote Desktop Connection >
 ```
+_Remote Desktopn Connection View_
+![image](https://user-images.githubusercontent.com/111234771/201292304-9775f4ad-71b9-478f-b039-bdad72fa6dfa.png)
+
+_Login with User Credential_
+![image](https://user-images.githubusercontent.com/111234771/201292478-24602684-2940-4926-b73b-df6ebebc3ee5.png)
