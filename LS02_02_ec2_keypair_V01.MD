@@ -54,5 +54,12 @@ _Generating User Details for Windows using .PEM File Format_
     Click on < Browse > Button, Select the File Name with .PEM key (Private Key)
     Click on < Decrypt > Button to get the User Name and Password
     Note Down the Login Credentials for the futhre use
+    
+    User Name < Administrator >
+    Password < 9p5k?u$91%Wg%gx2q50knoj6OA&X!Gdn > 
 ```
+_In Get Windows Password_
+![image](https://user-images.githubusercontent.com/111234771/201290243-5581b5c7-3c85-430d-b6d5-d7d84d190afa.png)
+![image](https://user-images.githubusercontent.com/111234771/201290548-755d1951-4984-47f8-a069-3a0650473fc2.png)
+
 
