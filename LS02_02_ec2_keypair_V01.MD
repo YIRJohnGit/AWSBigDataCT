@@ -79,7 +79,7 @@ _Login with User Credential_
 ![image](https://user-images.githubusercontent.com/111234771/201292478-24602684-2940-4926-b73b-df6ebebc3ee5.png)
 
 
-### Connecting to Linux Machine using Putty from .pem file ###
+### @09:58pm - Creating and Connecting to Linux Machine using Putty from .pem file ###
 ```
   Go To < Launch an instance > View
     In the Name and Tags Section < linuxServer >
